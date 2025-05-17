@@ -14,20 +14,27 @@ const Navbar = () => {
         <h1 className="logo">PORTFOLIO</h1>
       </div>
 
-      {/* Hamburger for mobile */}
       <div className="hamburger" onClick={toggleMenu}>
         ☰
       </div>
 
-      {/* Center Nav Links */}
-      <div className={`navbar-center ${menuOpen ? "open" : ""}`}>
-        <a href="#about">ABOUT</a>
-        <a href="#skills">SKILLS</a>
-        <a href="#projects">PROJECTS</a>
-        <a href="#contact">CONTACT</a>
+      <div className={`navbar-center ${menuOpen ? 'open' : ''}`}>
+        <a href="#about" onClick={toggleMenu}>ABOUT</a>
+        <a href="#skills" onClick={toggleMenu}>SKILLS</a>
+        <a href="#projects" onClick={toggleMenu}>PROJECTS</a>
+        <a href="#contact" onClick={toggleMenu}>CONTACT</a>
+
+        {/* Mobile-only resume button */}
+        <a
+          href="/resume.pdf"
+          className="resume-button mobile-only"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="bx bxs-file-doc"></i> RESUME
+        </a>
       </div>
 
-      {/* Social icons + Resume */}
       <div className="navbar-right">
         <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
           <div className="icon github-icon" />
@@ -35,8 +42,13 @@ const Navbar = () => {
         <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
           <div className="icon linkedin-icon" />
         </a>
-        <a href="/resume.pdf" className="resume-button" target="_blank" rel="noopener noreferrer">
-          <i className='bx bxs-file-doc'></i> RESUME
+        <a
+          href="/resume.pdf"
+          className="resume-button desktop-only"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="bx bxs-file-doc"></i> RESUME
         </a>
       </div>
     </nav>
