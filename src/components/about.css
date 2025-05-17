@@ -170,3 +170,8 @@ body{
     box-shadow: 0 12px 20px rgba(255, 75, 43, 0.2);
   }
   
+  @media (max-width: 768px) {
+  .profile-pic {
+    display: none;
+  }
+}
