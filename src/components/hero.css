@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0a0f1c;
+    color: white;
+    min-height: 90vh;
+  }
+  
+  .text-section {
+    margin-left: 50px;
+
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .text-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #ffffff;
+  }
+  
+  .text-section .typed-text {
+    color: #ff5252;
+    font-weight: bold;
+  }
+  
+  .text-section h2 {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    color: #ccc;
+  }
+  
+  .text-section p {
+    max-width: 650px;
+    margin-top: 1rem;
+    line-height: 1.6;
+  }
+  
+  .social-icons a {
+    color: white;
+    margin-right: 1rem;
+    font-size: 1.8rem;
+    transition: transform 0.3s;
+  }
+  
+  .social-icons a:hover {
+    transform: scale(1.2);
+    color: #ff5252;
+  }
+  
+  .image-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 150px;
+  }
+  
+  .profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    border: 3px solid #ff5252;
+    object-fit: cover;
+    transition: transform 0.5s;
+  }
+  
+  .profile-img:hover {
+    transform: scale(1.05);
+  }
+  
+  .image-section h3 {
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+
+  .social-icons{
+    margin-top: 10px;
+  }
+
+@media (max-width: 768px) {
+  .hero-container {
+    flex-direction: column;
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+
+  .text-section {
+    margin-left: 0;
+  }
+
+  .text-section h1 {
+    font-size: 2rem;
+  }
+
+  .text-section h2 {
+    font-size: 1.2rem;
+  }
+
+  .text-section p {
+    font-size: 0.95rem;
+    margin: 1rem auto;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+
+  .image-section {
+    margin-right: 0;
+    margin-top: 2rem;
+  }
+
+  .profile-img {
+    width: 160px;
+    height: 160px;
+  }
+
+  .image-section h3 {
+    font-size: 1.1rem;
+  }
+}

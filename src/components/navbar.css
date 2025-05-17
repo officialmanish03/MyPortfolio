@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+/* Navbar general style */
+.navbar {
+    background-color: rgba(17,24,39,255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    font-family: 'Arial Black', sans-serif;
+    color: white;
+  }
+  
+  /* Left section - Logo */
+  .logo {
+    font-size: 18px;
+    letter-spacing: 1px;
+  }
+  
+  /* Center section - Navigation links */
+  .navbar-center {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar-center a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    position: relative;
+    padding: 5px;
+    font-weight: 500;
+  }
+  
+  .navbar-center a:hover {
+    border-bottom: 2px solid white;
+  }
+  
+  /* Right section - Social icons + resume */
+  .navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .icon {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 50%;
+  }
+  
+  .github-icon {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/25/25231.png');
+    background-size: cover;
+    font-size: 16px;
+  }
+  
+  .linkedin-icon {
+    background-image: url('https://cdn-icons-png.flaticon.com/512/174/174857.png');
+    background-size: cover;
+    font-size: 16px;
+  }
+  
+  /* Resume button */
+  .resume-button {
+    border: 2px solid white;
+    padding: 5px 15px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    letter-spacing: 1px;
+  }
+
+  .resume-button i{
+    font-size: 16px;
+  }
+
+  
+  .resume-button:hover {
+    background-color: white;
+    color: #4144cc;
+  }
+  
+@media (max-width: 768px) {
+  .navbar {
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px 20px;
+  }
+
+  .navbar-center {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1rem;
+    gap: 12px;
+  }
+
+  .navbar-center a {
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    border-bottom: 1px solid #333;
+  }
+
+  .navbar-right {
+    margin-top: 1rem;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .resume-button {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+  }
+}
