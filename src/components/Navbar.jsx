@@ -36,10 +36,10 @@ const Navbar = () => {
       </div>
 
       <div className="navbar-right">
-        <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/officialmanish03" target="_blank" rel="noopener noreferrer">
           <div className="icon github-icon" />
         </a>
-        <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/manish-singh-916a9b276?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">
           <div className="icon linkedin-icon" />
         </a>
         <a
