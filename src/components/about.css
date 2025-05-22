@@ -174,4 +174,43 @@ body{
   .profile-pic {
     display: none;
   }
+    .about-container {
+    flex-direction: column;
+    padding: 16px;
+  }
+
+  .left-column, .right-column {
+    width: 100%;
+    padding: 0;
+  }
+
+  
+  .section-box {
+    margin-bottom: 20px;
+    padding: 16px;
+  }
+
+  .section-box h2 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+  }
+
+  .section-box p,
+  .section-box li {
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+
+  .achievement-list li,
+  .certification-list li,
+  .edu-list li {
+    margin-bottom: 10px;
+  }
+
+  .icon {
+    margin-right: 6px;
+    vertical-align: middle;
+    font-size: 1rem;
+  }
+
 }
