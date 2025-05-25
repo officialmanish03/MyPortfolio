@@ -14,22 +14,22 @@ const projects = [
     title: 'Netflix Clone',
     description: 'React-based Netflix UI with TMDB API.',
     image: NetflixImg,
-    liveLink: 'https://netflix-demo.vercel.app',
-    codeLink: 'https://github.com/username/netflix-clone'
+    liveLink: '',
+    codeLink: ''
   },
   {
     title: 'Swiggy UI Clone',
     description: 'Frontend clone of Swiggy using HTML/CSS/JS.',
     image: swiggyImg,
-    liveLink: 'https://swiggy-clone.netlify.app',
-    codeLink: 'https://github.com/username/swiggy-clone'
+    liveLink: 'https://officialmanish03.github.io/Swiggy-Clone/',
+    codeLink: 'https://github.com/officialmanish03/Swiggy-Clone'
   },
   {
     title: 'Portfolio Website',
     description: 'Responsive portfolio with React and AOS.',
     image: PortfolioImg,
-    liveLink: 'https://manish-portfolio.vercel.app',
-    codeLink: 'https://github.com/username/portfolio'
+    liveLink: 'https://my-portfolio-officialmanish03s-projects.vercel.app/',
+    codeLink: 'https://github.com/officialmanish03/MyPortfolio'
   },
   {
     title: 'Project Placeholder',
